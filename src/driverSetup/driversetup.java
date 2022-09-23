@@ -11,7 +11,7 @@ public class driversetup {
 	WebDriver driver;
 
 	public void open_chrome() {
-		System.setProperty("webdriver.chrome.driver", "/Users/anmolmishra/Documents/DSA/GoComet_cucumber/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\patra\\Downloads\\Selenium\\chromedriver_win32\\chromedriver.exe");
 		
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--disable-notifications");
